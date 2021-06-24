@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Roshan's blog</title>
-    </head>
-
-    <header>
-    <h1><a href="/">Django Girls Blog</a></h1>
-    </header>
+<header>
+    <h1><a href="/">Roshan's Blog</a></h1>
+</header>
 
 {% for post in posts %}
     <article>
@@ -15,4 +9,3 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </article>
 {% endfor %}
-</html>
